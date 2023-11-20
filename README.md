@@ -53,9 +53,9 @@ You are provided with the class and method stubs and what each method should do.
 
 Please store the paths in tracker for IDs. You must visualize the paths by tracking the centroids of people detected. Implement a function that does this. Make sure to remove them beyond a certain length that you find is visually suitable. You can use ```cv.line()``` to plot the path. The path should be a list of centroids returned/stored in Tracker object.
 
-Here is the TA's sample output video:
+Here is the TA's sample output video (or see kartik_sample/output.mp4:
 
-![kartik_sample/output.mp4](kartik_sample/output.mp4)
+![kartik_sample/kartik_out.gif](kartik_sample/kartik_out.gif)
 
 ## Assignment 2: Object Removal
 
