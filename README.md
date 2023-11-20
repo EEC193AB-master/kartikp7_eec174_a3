@@ -49,6 +49,9 @@ You are provided with the class and method stubs and what each method should do.
 - Calculating Distance (_distance):
     - Implement the method to calculate the Euclidean distance between each pair of centroids from two lists.
 
+We will match detected objects by their closest distance to last known. You can set a maximum distance radius to look for the object, otherwise deregister the object. 
+The TA has set this to ```MAX_DISTANCE = 50```. So any distances beyond that will not be counted as same ID.
+
 ### Visualization
 
 Please store the paths in tracker for IDs. You must visualize the paths by tracking the centroids of people detected. Implement a function that does this. Make sure to remove them beyond a certain length that you find is visually suitable. You can use ```cv.line()``` to plot the path. The path should be a list of centroids returned/stored in Tracker object.
